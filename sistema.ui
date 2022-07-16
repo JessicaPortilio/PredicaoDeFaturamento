@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1365</width>
+    <height>710</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="bt_arquivo">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>50</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Arquivo</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rb_media">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>200</y>
+      <width>68</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Média</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rb_desvioPadrao">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>240</y>
+      <width>128</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Desvio Padrão</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rb_mediaPonderada">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>280</y>
+      <width>148</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Média Ponderada</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rb_segregacaoDados">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>320</y>
+      <width>179</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Segregação de Dados</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rb_regressaoLinear">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>360</y>
+      <width>147</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Regressão Linear</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rb_serieTemporais">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>400</y>
+      <width>149</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Séries Temporais</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_predizer">
+    <property name="geometry">
+     <rect>
+      <x>1120</x>
+      <y>580</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Predizer</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_predicao">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>590</y>
+      <width>1001</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_predicaoFaturamento">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>-10</y>
+      <width>561</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Times New Roman</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Predição de Faturamento</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="txt_totalFaturado">
+    <property name="geometry">
+     <rect>
+      <x>932</x>
+      <y>51</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_totalFaturado">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>30</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Total faturado</string>
+    </property>
+   </widget>
+   <widget class="QSpinBox" name="sd_colunas">
+    <property name="geometry">
+     <rect>
+      <x>1170</x>
+      <y>100</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lb_tipoPredicao">
+    <property name="geometry">
+     <rect>
+      <x>1150</x>
+      <y>170</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Tipo de Predição</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tb_faturamento">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>90</y>
+      <width>1001</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <column>
+     <property name="text">
+      <string>Ano</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>New Column</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Faturamento</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1365</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
